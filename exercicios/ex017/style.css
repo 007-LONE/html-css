@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+body {
+             font-family: Arial, Helvetica, sans-serif;
+             /*
+             Medidas Absolutas:
+             cm: centimetro;
+             mm: milimetro;
+             in: polegada;
+             px: pixel;
+             pt: ponto;
+             pa: paica;
+             O PT E PA SÃO MEDIDAS DA TIPOGRAFIA DE PAPEL E NÃO SÃO RECOMENDADAS PARA SITES
+
+             Medidas Relativas
+             em: relativa ao tamanho atual da fonte, ao m maiusculo de uma letra de uma determinada fonte;
+             ex: relativo ao tamanho da letra X e x;
+             rem: é tipo o em so que relativo ao root, a fonte que tá configuarada no body;
+             vw: "viewport width", ou seja, a largura da janela de visualização, que é o largura da tela;
+             vh: "viewport height", ou seja, a altura da janela de visualização, que é a altura da tela.
+
+             # OS MAIS RECOMENDADOS A SEREM USADOS SÃO O em E O px # --> RECOMENDAÇÃO DA W3C.
+
+             normalmente os navegadores colocam um font-size de 16px;
+             16px geralmente = 1em
+
+             */
+             font-size: 1em;
+             /* PESOS LITERAIS: 
+             lighter: que é o mais magrinho, mais leve;
+             normal: esse é o normal
+             bold: escuro, negrito;
+             bolder: muito escuro, mais negrito que o negrito.
+
+             VARIAÇÃO NUMERICA: 
+             começa no 100 e vai de 100 em 100 até 900.
+
+             A MAIORIA DAS FONTES NÃO TEM TODAS AS VARIAÇÕES.
+             */
+             /* NÃO COMFUNDIR: 
+             weight = peso
+             width = largura
+             height = altura
+             */
+        }
+
+        h1 {
+            
+            text-decoration: underline;
+            /* shorthand font 
+            - font-style -> font-weight -> font-size -> font-family
+
+            font-family: Arial, Helvetica, sans-serif, monospace, 'Courier New', Courier, monospace;
+            font-weight: normal;
+            font-style: italic;
+            font-size: 2em;
+
+            */
+            font: italic normal 3em Arial, Helvetica, sans-serif, monospace, 'Courier New', Courier, monospace;
+        }
+
+        h2 {
+            font: italic 2em Arial, Helvetica, sans-serif, monospace, 'Courier New', Courier, monospace;
+            text-decoration: underline;
+        }

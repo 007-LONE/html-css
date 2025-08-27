@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+/* Estilos de Fontes */
+.work-sans {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.kaushan-script-regular {
+  font-family: "Kaushan Script", cursive; /* Adicionado fallback para 'cursive' */
+  font-weight: 400;
+  font-style: normal;
+}
+.savate {
+  font-family: "Savate", sans-serif, 'Times New Roman', Times, serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Estilos Globais */
+body {
+    font-family: "Work Sans", Arial, Helvetica, sans-serif; /* Simplificado o fallback */
+    font-weight: 400;
+    line-height: 1.6; /* Adicionado */
+    margin: 0; /* Adicionado */
+    padding: 20px; /* Adicionado */
+    background-color: #f4f4f4; /* Adicionado */
+    color: #333; /* Adicionado */
+}
+
+/* Estilos de Títulos */
+h1 {
+    font-family: "Kaushan Script", cursive; /* Adicionado fallback para 'cursive' */
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3em; /* Alterado para unidade relativa */
+    color: #4a4a4a; /* Adicionado */
+    text-align: center; /* Adicionado */
+    margin-bottom: 20px; /* Adicionado */
+}
+
+h2 {
+    font-family: "Kaushan Script", cursive; /* Adicionado fallback para 'cursive' */
+    font-size: 2em; /* Adicionado */
+    color: #6a6a6a; /* Adicionado */
+    border-bottom: 2px solid #ccc; /* Adicionado */
+    padding-bottom: 5px; /* Adicionado */
+    margin-top: 40px; /* Adicionado */
+}
+
+/* Estilos de Parágrafos */
+p {
+    margin-bottom: 1em; /* Adicionado */
+    text-align: justify; /* Adicionado */
+}
+
+/* Estilo para Parágrafo Específico */
+#p1 {
+    font-family: "Savate", sans-serif; /* Adicionado fallback para 'sans-serif' */
+    color: #007bff; /* Adicionado */
+    font-size: 1.1em; /* Adicionado */
+    padding: 15px; /* Adicionado */
+    border: 1px solid #007bff; /* Adicionado */
+    border-radius: 8px; /* Adicionado */
+    background-color: #e6f3ff; /* Adicionado */
+}

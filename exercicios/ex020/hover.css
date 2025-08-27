@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+}
+
+/* sobre div > p
+este seletor significa que o div tem um filho que é o paragrafo
+*/
+div > p {
+    display: none;
+}
+
+div:hover > p {
+    display: block;
+    color: rgb(0, 94, 255);
+    background-color: aqua;
+    width: 150px;
+
+    font-family: monospace;
+}
+
+div:hover {
+    color: rgb(226, 43, 134);
+}

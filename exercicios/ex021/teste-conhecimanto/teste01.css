@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dimgray;
+    margin: 0px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 16px;
+}
+
+header {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+nav {
+    background-color: rgb(102, 102, 102);
+    padding: 3px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+    color: aqua;
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+article {
+    background-color: lightgray;
+}
+
+article > aside {
+    background-color: rgb(71, 69, 69);
+    color: #fff;
+    padding: 5px;
+}red
+
+/* footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin: 0px;
+} */
+
+footer {
+    background-color: #333; /* Cor de fundo escura */
+    color: #fff; /* Cor do texto branca */
+    padding: 20px 0; /* Preenchimento superior e inferior de 20px, e 0 nas laterais */
+    text-align: center; /* Alinha o texto ao centro */
+    width: 100%; /* Garante que o rodapé ocupe 100% da largura */
+    box-sizing: border-box; /* Inclui padding e borda no cálculo da largura */
+}
+
+.footer-content {
+    max-width: 1200px; /* Largura máxima do conteúdo do rodapé */
+    margin: 0 auto; /* Centraliza o conteúdo do rodapé */
+    display: flex; /* Ativa o flexbox para os itens dentro do footer-content */
+    flex-direction: column; /* Organiza os itens em coluna em telas menores */
+    align-items: center; /* Centraliza os itens horizontalmente */
+}
+
+.footer-content p {
+    margin: 10px 0; /* Margem superior e inferior para o parágrafo */
+    font-size: 0.9em; /* Tamanho da fonte um pouco menor */
+    color: white;
+    background-color: black;
+    border-radius: 7px;
+}
+
+.footer-content nav ul {
+    list-style: none; /* Remove os marcadores de lista */
+    padding: 0; /* Remove o preenchimento padrão da lista */
+    margin: 10px 0; /* Margem superior e inferior para a lista */
+    display: flex; /* Ativa o flexbox para os itens da lista */
+    flex-wrap: wrap; /* Permite que os itens da lista quebrem para a próxima linha */
+    justify-content: center; /* Centraliza os itens da lista */
+    gap: 20px; /* Espaço entre os itens da lista */
+}
+
+.footer-content nav ul li a {
+    color: #fff; /* Cor do link branca */
+    text-decoration: none; /* Remove o sublinhado do link */
+    font-size: 1em; /* Tamanho da fonte do link */
+    transition: color 0.3s ease; /* Adiciona uma transição suave na mudança de cor */
+}
+
+.footer-content nav ul li a:hover {
+    color: #007bff; /* Cor do link ao passar o mouse */
+}
+
+/* Media query para telas maiores (desktops) */
+@media (min-width: 768px) {
+    .footer-content {
+        flex-direction: row; /* Organiza os itens em linha em telas maiores */
+        justify-content: space-between; /* Distribui os itens com espaço entre eles */
+        align-items: center; /* Alinha os itens verticalmente ao centro */
+    }
+
+    .footer-content nav ul {
+        margin: 0; /* Remove a margem superior e inferior da lista em telas maiores */
+    }
+}

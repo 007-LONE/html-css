@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+/* ANOTAR CADERNO
+    em HTML é id = em CSS é # (só pode um elemento)
+    em HTML é class = em CSS é . (pode vários elementos)
+*/
+
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+h1{
+    color: #363537;
+    text-decoration: underline;
+}
+
+#principal {
+    text-align: center;
+    background-color: #363537;
+    color: #fff;
+    text-decoration: none;
+}
+
+h2 {
+    color: #ED7D3A;
+}
+
+p {
+    text-indent: 25px;
+}
+
+.basico {
+    color: #2FBF71;
+    text-decoration: underline;
+}
+
+.intermediario {
+    color: #088502;
+    text-decoration: underline;
+}
+
+.avançado {
+    color: #BA324F;
+    text-decoration: underline;
+}
+
+.destaque {
+    background-color: #f2f23470;
+}
